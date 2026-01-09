@@ -2,11 +2,9 @@ n= int(input())
 book = 3000
 mask = 1000
 
-if(n<=0):
+if(n<mask):
     print('no')
-elif(n<=mask):
+elif(n<book):
     print('mask')
-elif(n<=book):
-    print('book')
 else:
-    print('no')
+    print('book')
